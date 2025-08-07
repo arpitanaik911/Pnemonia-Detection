@@ -1,0 +1,16 @@
+# De-prioritize HTML/CSS
+*.html linguist-vendored
+*.css linguist-vendored
+
+# Count Jupyter Notebooks as Python
+*.ipynb linguist-language=Python
+*.ipynb linguist-detectable=true
+
+# Make sure Python is counted
+*.py linguist-detectable=true
+
+# Add detection for other languages if used
+*.java linguist-detectable=true
+*.js linguist-detectable=true
+*.c linguist-detectable=true
+*.cpp linguist-detectable=true
